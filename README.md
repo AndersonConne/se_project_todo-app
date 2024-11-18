@@ -1,14 +1,19 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+This the sprint 7 project for the software engineering program at triple ten. It's just a simple todo website.
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+With this website you can set yourself a todo list with an optional date for completion. It uses the Object Oreniented programming paradigm.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+I refactored the code so that it uses classes instead of only functions.
+I used the Todo.js class to refactor the generateTodo function.
+I also used the FormValidator to refractor the Validation file.
+
+![Alt text](/images/Screenshot%20todo-website.png)
+![Alt text](/images/Screenshot%20todo-website-modal.png)
 
 ## Deployment
 
