@@ -19,4 +19,4 @@ I also used the FormValidator to refractor the Validation file.
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+- https://andersonconne.github.io/se_project_todo-app/
