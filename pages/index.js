@@ -25,7 +25,6 @@ const generateTodo = (data) => {
 
 addTodoButton.addEventListener("click", () => {
   openModal(addTodoPopup);
-  formValidator.enableValidation();
 });
 
 addTodoCloseBtn.addEventListener("click", () => {
@@ -54,3 +53,5 @@ initialTodos.forEach((item) => {
 });
 
 const formValidator = new FormValidator(validationConfig, addTodoForm);
+
+formValidator.enableValidation();
