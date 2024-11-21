@@ -17,7 +17,6 @@ class FormValidator {
     const errorMessage = inputElement.validationMessage;
     errorElement.textContent = errorMessage;
     errorElement.classList.add(this._errorClass);
-    console.log(errorMessage);
   }
 
   _hideInputError(inputElement) {
@@ -80,7 +79,6 @@ class FormValidator {
 
   resetValidation() {
     this._formElement.reset();
-    this._buttonElement.disabled = true;
     this._toggleButtonState();
   }
 }
