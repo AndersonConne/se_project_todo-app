@@ -30,7 +30,7 @@ class Todo {
     this._todoDeleteBtn = this._todoElement.querySelector(".todo__delete-btn");
 
     this._todoNameEl.textContent = this._data.name;
-    this._todoCheckboxEl.checked = this._completed;
+    this._todoCheckboxEl.checked = this._data.completed;
 
     this._todoCheckboxEl.id = `todo-${this._data.id}`;
     this._todoLabel.setAttribute("for", `todo-${this._data.id}`);
